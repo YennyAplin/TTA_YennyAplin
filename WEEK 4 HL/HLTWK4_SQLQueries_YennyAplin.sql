@@ -30,5 +30,7 @@ from customer c
 where date(r.rental_date) = '2005-06-14'
 order by 2 desc;
 
+-- The answer for <1>: r
+-- The answer for <2>: r.customer_id
 -- The answer for <3>: 2
 -- The answer for <4>: desc
